@@ -17,3 +17,8 @@ function index(array, n) {
     return array[n] ** n
   return -1
 }
+
+// solution 2
+function indexTwo(array, n) {
+  return n < array.length ? array[n] ** n : -1
+}
