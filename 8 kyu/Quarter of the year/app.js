@@ -19,6 +19,7 @@ const quarterOf = (month) => {
   else return 4
 }
 
+
 // solution 2:
 const quarterOfTryTwo = (month) => {
   const monthsAsQuarters = [
@@ -34,6 +35,7 @@ const quarterOfTryTwo = (month) => {
   }
 }
 
+
 // solution 3:
 const quarterOfTryThree = (month) => {
   if (month <= 3) {
@@ -46,3 +48,7 @@ const quarterOfTryThree = (month) => {
     return 4
   }
 }
+
+
+// solution 4:
+const quarterOfTryFour = m => Math.ceil(m / 3)
