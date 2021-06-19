@@ -18,3 +18,18 @@ const quarterOf = (month) => {
     return 3
   else return 4
 }
+
+// solution 2:
+const quarterOfTryTwo = (month) => {
+  const monthsAsQuarters = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [10, 11, 12]
+  ]
+
+  for (quarter of monthsAsQuarters) {
+    if (quarter.includes(month))
+      return monthsAsQuarters.indexOf(quarter) + 1
+  }
+}
