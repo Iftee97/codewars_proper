@@ -34,3 +34,7 @@ function nearestSq(n) {
   const nearest = Math.abs(nearestGreater - n) < Math.abs(nearestSmaller - n) ? nearestGreater : nearestSmaller
   return nearest
 }
+
+
+// solution 2:
+const nearestSq = n => Math.pow(Math.round(Math.sqrt(n)), 2)
