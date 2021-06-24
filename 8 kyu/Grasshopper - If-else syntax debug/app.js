@@ -21,3 +21,9 @@ function checkAlive(health) {
 
   return health <= 0 ? false : true
 }
+
+// solution 2:
+function checkAlive(health) {
+  return health > 0;
+}
+
