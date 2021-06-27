@@ -35,3 +35,12 @@ function finalGrade(exam, projects) {
   else if (exam > 50 && projects >= 2) return 75
   else return 0
 }
+
+// solution-2:
+const finalGrade = (exam, projects) => {
+  return (
+    exam > 90 || projects > 10 ? 100 :
+      exam > 75 && projects >= 5 ? 90 :
+        exam > 50 && projects >= 2 ? 75 : 0
+  )
+}
