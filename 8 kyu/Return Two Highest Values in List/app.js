@@ -28,3 +28,8 @@ function twoHighest(arr) {
     arrToReturn.push(max, newMax); // pushing to new array
     return arrToReturn; // return new array;
 }
+
+// solution-2:
+function twoHighest(arr) {
+    return [...new Set(arr)].sort((a, b) => b - a).slice(0, 2)
+}
