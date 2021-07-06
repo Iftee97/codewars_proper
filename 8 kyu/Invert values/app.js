@@ -29,3 +29,6 @@ function invert(array) {
         return arrayToReturn;
     }
 }
+
+// solution-2:
+const invert = array => array.map(num => -num);
