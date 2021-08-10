@@ -22,3 +22,11 @@ function arrayMadness(a, b) {
 
     return sumOfSquaresOfArrA > sumOfCubesOfArrB ? true : false;
 }
+
+// solution-2:
+function arrayMadness(a, b) {
+    const sumOfSquaresOfArrA = a.map(num => num ** 2).reduce((acc, currVal) => acc + currVal);
+    const sumOfCubesOfArrB = b.map(num => num ** 3).reduce((acc, currVal) => acc + currVal);
+
+    return sumOfSquaresOfArrA > sumOfCubesOfArrB ? true : false;
+}
