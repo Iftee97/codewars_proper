@@ -27,3 +27,9 @@ Array's length > 2.
 function toCsvText(array) {
     return array.join('\n');
 }
+
+
+// solution-2:
+function toCsvText(array) {
+    return array.map(list => list.join(',')).join('\n')
+}
