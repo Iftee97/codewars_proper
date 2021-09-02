@@ -31,3 +31,8 @@ function all(arr, fun) {
         }
     }
 }
+
+// solution-3:
+function all(arr, fun) {
+    return arr.every(fun)
+}
