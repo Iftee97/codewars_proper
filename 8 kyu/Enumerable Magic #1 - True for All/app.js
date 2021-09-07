@@ -20,3 +20,14 @@ function all(arr, fun) {
         return fun(arr) ? true : false;
     }
 }
+
+// solution-2:
+function all(arr, fun) {
+    if (arr.length < 9) {
+        if (fun(arr)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
