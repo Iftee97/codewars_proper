@@ -16,3 +16,8 @@ Tests round answers to 6 decimal places.
 function distanceBetweenPoints(a, b) {
     return Math.hypot(a.x - b.x, a.y - b.y);
 }
+
+// solution-2:
+function distanceBetweenPoints(a, b) {
+    return Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2));
+}
