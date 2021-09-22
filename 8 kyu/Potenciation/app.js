@@ -24,3 +24,8 @@ function power(x, y) {
         return x ** y;
     }
 }
+
+// solution-2:
+function power(x, y) {
+    return x ** y;
+}
