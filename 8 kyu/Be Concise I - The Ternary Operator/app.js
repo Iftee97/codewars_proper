@@ -21,4 +21,4 @@ Your task is to shorten the code as much as possible. Note that submitting the g
 // }
 
 // solution-2:
-const age = a => (a <= 12) ? "You're a(n) kid" : (a <= 17) ? "You're a(n) teenager" : (a <= 64) ? "You're a(n) adult" : "You're a(n) elderly"
+const describeAge = a => (a <= 12) ? "You're a(n) kid" : (a <= 17) ? "You're a(n) teenager" : (a <= 64) ? "You're a(n) adult" : "You're a(n) elderly"
