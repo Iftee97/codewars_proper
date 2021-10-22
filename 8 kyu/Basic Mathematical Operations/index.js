@@ -28,3 +28,8 @@ function basicOp(operation, value1, value2) {
         return value1 / value2;
     }
 }
+
+// solution-2:
+function basicOp(o, a, b) {
+    return eval(a + o + b);
+}
