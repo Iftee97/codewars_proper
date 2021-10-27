@@ -14,3 +14,6 @@ anyArrows([{range: 5}, {range: 10, damaged: true}, {damaged: true}])
 function anyArrows(arrows) {
     return arrows.some(arrow => arrow.damaged !== true);
 }
+
+// solution-2:
+const anyArrows = arrows => arrows.some(arrow => !arrow.damaged);
