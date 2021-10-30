@@ -25,3 +25,6 @@ function addLength(str) {
 function addLength(str) {
     return str.split(" ").map(s => `${s} ${s.length}`)
 }
+
+// solution-3:
+const addLength = (s) => s.split(' ').map(x => x + ' ' + x.length);
