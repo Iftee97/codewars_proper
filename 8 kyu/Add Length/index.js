@@ -20,3 +20,8 @@ function addLength(str) {
     }
     return arrToReturn;
 }
+
+// solution-2:
+function addLength(str) {
+    return str.split(" ").map(s => `${s} ${s.length}`)
+}
