@@ -9,11 +9,9 @@ If you can, try writing it in only one line of code.
 
 // solution:
 function findMultiples(integer, limit) {
-    const result = []
-
+    const result = [];
     for (let i = integer; i <= limit; i += integer) {
-        result.push(i)
+        result.push(i);
     }
-
-    return result
+    return result;
 }
