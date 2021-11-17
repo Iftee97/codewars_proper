@@ -34,3 +34,8 @@ function hello(name) {
         return "Hello, World!";
     }
 }
+
+// solution-3:
+function hello(name) {
+    return `Hello, ${name ? name[0].toUpperCase() + name.slice(1).toLowerCase() : "World"}!`
+}
