@@ -25,3 +25,6 @@ function findDifference(a, b) {
     let difference = Math.abs(volumeOfA - volumeOfB);
     return difference;
 }
+
+// solution-2: one liner
+const findDifference = (a, b) => Math.abs(a.reduce((acc, currVal) => acc * currVal) - b.reduce((acc, currVal) => acc * currVal));
