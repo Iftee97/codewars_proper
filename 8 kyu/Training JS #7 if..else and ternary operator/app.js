@@ -48,7 +48,20 @@ You can use if..else or ternary operator to complete it.
 
 */
 
-// solution:
+// solution: using ternary
 function saleHotdogs(n) {
-    return n < 5 ? (100 * n) : (n >= 5 && n < 10) ? (95 * n) : n >= 10 ? (90 * n) : '';
+    return n < 5 ? (100 * n) : (n >= 5 && n < 10) ? (95 * n) : n >= 10 ? (90 * n) : 0;
+}
+
+// solution: using if-else
+function saleHotdogs(n) {
+    if (n < 5) {
+        return 100 * n;
+    } else if (n >= 5 && n < 10) {
+        return 95 * n;
+    } else if (n >= 10) {
+        return 90 * n;
+    } else {
+        return 0;
+    }
 }
