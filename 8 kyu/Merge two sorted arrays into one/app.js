@@ -18,9 +18,20 @@ Examples (input -> output)
 */
 
 
-// solution:
+// edge cases:
 // merge two arrays into one sorted array
 // psst. remove duplicates too
+
+
+// solution:
+function mergeArrays(arr1, arr2) {
+    let mergedArr = [...arr1, ...arr2]; // merge
+    let sortedMergedArr = mergedArr.sort((a, b) => a - b); // sort in ascending order
+    let removedDuplicatesSortedMergedArr = [...new Set(sortedMergedArr)]; // remove duplicates
+    return removedDuplicatesSortedMergedArr; // return 
+}
+
+// solution-2:
 function mergeArrays(arr1, arr2) {
     let mergedArr = [...arr1, ...arr2]; // merge
     return [...new Set(mergedArr.sort((a, b) => a - b))]; // sort and remove duplicates
