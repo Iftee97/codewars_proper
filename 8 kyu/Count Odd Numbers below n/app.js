@@ -22,3 +22,6 @@ function oddCount(n) {
     }
     return oddCount;
 }
+
+// solution-2:
+const oddCount = n => Math.floor(n / 2);
