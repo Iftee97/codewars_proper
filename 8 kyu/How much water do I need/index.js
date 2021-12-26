@@ -15,3 +15,14 @@ The answer should be rounded to the nearest 2 decimal places.
 */
 
 // solution-1:
+function howMuchWater(water, load, clothes) {
+    let amountOfWaterRequired = Math.round((water * 1.1 ** (clothes - load)) * 100) / 100;
+
+    if (clothes > 2 * load) {
+        return 'Too much clothes';
+    } else if (clothes < load) {
+        return 'Not enough clothes';
+    } else {
+        return amountOfWaterRequired;
+    }
+}
