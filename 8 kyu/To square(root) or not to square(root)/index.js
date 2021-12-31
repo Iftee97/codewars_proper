@@ -17,6 +17,10 @@ The input array will always contain only positive numbers, and will never be emp
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function squareOrSquareRoot(array) {
     const newArray = [];
