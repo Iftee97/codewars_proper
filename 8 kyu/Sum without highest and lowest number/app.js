@@ -18,6 +18,10 @@ If an empty value ( null, None, Nothing etc. ) is given instead of an array, or 
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function sumArray(array) {
     if (array == null || array.length < 2) {
