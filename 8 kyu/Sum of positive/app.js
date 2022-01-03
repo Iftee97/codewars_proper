@@ -10,6 +10,10 @@ Note: if there is nothing to sum, the sum is default to 0.
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function positiveSum(arr) {
     let sum = 0;
