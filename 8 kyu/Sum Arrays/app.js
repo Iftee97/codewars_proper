@@ -50,4 +50,4 @@ function sum(numbers) {
     } else {
         return 0;
     }
-};
+}
