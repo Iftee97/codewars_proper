@@ -18,3 +18,6 @@ function grow(x) {
 
     return product;
 }
+
+// solution-2
+const grow = x => x.reduce((a, b) => a * b);
