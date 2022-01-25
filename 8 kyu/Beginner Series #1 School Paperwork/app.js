@@ -12,3 +12,17 @@ n=-5, m=5:  0
 
 */
 
+// solution:
+function paperwork(n, m) {
+    let numOfPapers = 0;
+    if (n < 0 || m < 0) {
+        return numOfPapers;
+    } else {
+        return numOfPapers = n * m;
+    }
+}
+
+// solution-2:
+function paperwork(n, m) {
+    return n > 0 && m > 0 ? n * m : 0
+}
