@@ -13,3 +13,14 @@ Sam Harris => S.H
 patrick feeney => P.F
 
 */
+
+// solution:
+function abbrevName(name) {
+    return name.toUpperCase().split(' ').map(name => name[0]).join('.');
+}
+
+// solution-2:
+function abbrevName(name) {
+    var nameArray = name.split(" ");
+    return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+}
