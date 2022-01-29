@@ -7,4 +7,7 @@ It's pretty straightforward. Your goal is to create a function that removes the 
 */
 
 // solution:
+function removeChar(str) {
+    return str.slice(1, -1)
+};
 
