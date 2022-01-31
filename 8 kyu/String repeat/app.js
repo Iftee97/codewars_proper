@@ -10,3 +10,10 @@ repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 */
 
 // solution
+function repeatStr(n, s) {
+    let returnStr = "";
+    for (let i = 0; i < n; i++) {
+        returnStr += s;
+    }
+    return returnStr;
+}
