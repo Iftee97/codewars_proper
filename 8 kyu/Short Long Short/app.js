@@ -14,3 +14,20 @@ For example: (Input1, Input2) --> output
 ("22", "1") --> "1221"
 
 */
+
+// solution:
+function solution(a, b) {
+    let shorterString;
+    let longerString;
+
+    if (a.length > b.length) {
+        longerString = a;
+        shorterString = b;
+    } else {
+        longerString = b;
+        shorterString = a;
+    }
+
+    let outputString = shorterString + longerString + shorterString;
+    return outputString;
+}
