@@ -16,3 +16,8 @@ function nameShuffler(str) {
     let shuffledName = lastName + ' ' + firstName;
     return shuffledName;
 }
+
+// solution-2:
+function nameSuffle(str) {
+    return str.split(' ').reverse().join(' ')
+}
