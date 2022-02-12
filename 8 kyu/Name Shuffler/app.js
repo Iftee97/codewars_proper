@@ -9,3 +9,10 @@ nameShuffler('john McClane'); => "McClane john"
 
 */
 
+// solution:
+function nameShuffler(str) {
+    let nameArr = str.split(' ');
+    let [firstName, lastName] = nameArr;
+    let shuffledName = lastName + ' ' + firstName;
+    return shuffledName;
+}
