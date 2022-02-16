@@ -16,3 +16,16 @@ Notes:
 The input array will always contain only positive numbers, and will never be empty or null.
 
 */
+
+// solution:
+function squareOrSquareRoot(array) {
+    const newArray = [];
+    for (let num of array) {
+        if (num > 0 && Math.sqrt(num) % 1 === 0) {
+            newArray.push(Math.sqrt(num));
+        } else {
+            newArray.push(num ** 2);
+        }
+    }
+    return newArray;
+}
