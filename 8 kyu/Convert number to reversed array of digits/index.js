@@ -11,3 +11,16 @@ Example:
 */
 
 // solution:
+function digitize(n) {
+    //code here
+    if (n.length === 1) {
+        return [n];
+    } else {
+        const stringifiedNum = String(n);
+        const stringifiedNumArr = stringifiedNum.split('');
+        const reveredStringifiedNumArr = stringifiedNumArr.reverse();
+        const numsArr = [];
+        reveredStringifiedNumArr.forEach(num => numsArr.push(Number(num)));
+        return numsArr;
+    }
+}
