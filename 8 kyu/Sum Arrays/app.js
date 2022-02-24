@@ -34,6 +34,10 @@ function sum(numbers) {
     return numbers.reduce((a, b) => a + b, 0);
 }
 
+
+// --------------------------------------------------------------------
+
+
 // solution-2:
 function sum(numbers) {
     "use strict";
