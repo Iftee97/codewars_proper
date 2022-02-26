@@ -22,6 +22,10 @@ function repeatStr(n, s) {
     return returnStr;
 }
 
+
+// --------------------------------------------------------------------
+
+
 // solution-2:
 function repeatStr(n, s) {
     return s.repeat(n);
