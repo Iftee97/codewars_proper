@@ -46,6 +46,9 @@ function solution(a, b) {
 }
 
 
+// --------------------------------------------------------------------
+
+
 // more solutions:
 // Using if...else, explicit block syntax
 function solution(a, b) {
