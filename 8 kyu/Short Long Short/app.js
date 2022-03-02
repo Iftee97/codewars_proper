@@ -36,6 +36,10 @@ function solution(a, b) {
     return outputString;
 }
 
+
+// --------------------------------------------------------------------
+
+
 // solution-2:
 function solution(a, b) {
     return (a.length > b.length) ? b + a + b : a + b + a;
