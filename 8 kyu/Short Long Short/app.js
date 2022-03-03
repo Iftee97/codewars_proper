@@ -15,6 +15,10 @@ For example: (Input1, Input2) --> output
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function solution(a, b) {
     let shorterString;
