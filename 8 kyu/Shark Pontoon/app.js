@@ -39,6 +39,10 @@ const shark = (pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin) =>
     return sharkTime < youTime ? 'Shark Bait!' : 'Alive!'
 }
 
+
+// --------------------------------------------------------------------
+
+
 // solution-2:
 function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin) {
     const sharkActualSpeed = dolphin ? sharkSpeed / 2 : sharkSpeed;
