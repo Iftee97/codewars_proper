@@ -15,6 +15,10 @@ function noSpace(x) {
     return x.replace(/\s/g, '');
 }
 
+
+// --------------------------------------------------------------------
+
+
 // try-2
 function noSpace(x) {
     return x.split(' ').join('');
