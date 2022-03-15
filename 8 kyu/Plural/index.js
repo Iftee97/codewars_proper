@@ -19,6 +19,10 @@ function plural(n) {
     }
 }
 
+
+// --------------------------------------------------------------------
+
+
 // solution-2:
 function plural(n) {
     return n === 1 ? false : true;
