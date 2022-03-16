@@ -6,6 +6,10 @@ You only need to worry about english grammar rules for this kata, where anything
 All values will be positive integers or floats, or zero.
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function plural(n) {
     if ((n === 0) || (n > 0 && n < 1) || (n > 1)) {
