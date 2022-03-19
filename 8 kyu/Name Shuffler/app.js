@@ -30,6 +30,10 @@ function nameSuffle(str) {
     return str.split(' ').reverse().join(' ')
 }
 
+
+// --------------------------------------------------------------------
+
+
 // solution-3:
 const nameShuffler = str => str.split(' ').reverse().join(' ');
 
