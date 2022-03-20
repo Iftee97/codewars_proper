@@ -21,6 +21,10 @@ function nameShuffler(str) {
     return shuffledName;
 }
 
+
+// --------------------------------------------------------------------
+
+
 // solution-2:
 function nameSuffle(str) {
     return str.split(' ').reverse().join(' ')
