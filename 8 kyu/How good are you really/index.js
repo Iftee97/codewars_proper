@@ -34,6 +34,10 @@ function betterThanAverage(classPoints, yourPoints) {
     }
 }
 
+
+// --------------------------------------------------------------------
+
+
 // solution-2:
 function betterThanAverage(classPoints, yourPoints) {
     // Your code here
