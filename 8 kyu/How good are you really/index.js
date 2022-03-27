@@ -14,6 +14,10 @@ Your points are not included in the array of your class's points. For calculatin
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function betterThanAverage(classPoints, yourPoints) {
     // Your code here
