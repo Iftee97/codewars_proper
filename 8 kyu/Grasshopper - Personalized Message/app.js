@@ -12,6 +12,10 @@ otherwise	            'Hello guest
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function greet(name, owner) {
     if (name === owner) {
