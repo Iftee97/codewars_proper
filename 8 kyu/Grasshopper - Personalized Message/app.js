@@ -26,6 +26,10 @@ function greet(name, owner) {
     }
 }
 
+
+// --------------------------------------------------------------------
+
+
 // solution-2:
 function greet(name, owner) {
     return name === owner ? 'Hello boss' : 'Hello guest';
