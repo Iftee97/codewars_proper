@@ -10,5 +10,9 @@ Sure, this is about as easy as it gets. But how clever can you be to create the 
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // Write a function "greet" that returns "hello world!"
 const greet = () => "hello world!";
