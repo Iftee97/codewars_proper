@@ -14,6 +14,10 @@ The array will always have at least 2 elements and all elements will be numbers.
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function firstNonConsecutive(arr) {
     for (let i = 1; i < arr.length; i++) {
