@@ -6,6 +6,10 @@ Create a function that takes an integer as an argument and returns "Even" for ev
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution
 function even_or_odd(number) {
     return number % 2 ? "Odd" : "Even"
