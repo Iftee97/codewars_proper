@@ -13,6 +13,10 @@ Our deck (is preloaded):
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // try-1
 function defineSuit(card) {
     if (card.includes('♣')) {
