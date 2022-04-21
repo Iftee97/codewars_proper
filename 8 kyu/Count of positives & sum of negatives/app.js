@@ -35,10 +35,6 @@ function countPositivesSumNegatives(arr) {
     return arrayToReturn;
 }
 
-
-// --------------------------------------------------------------------
-
-
 // solution-2:
 function countPositivesSumNegatives(input) {
     var newArr = [];
