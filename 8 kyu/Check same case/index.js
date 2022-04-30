@@ -21,6 +21,10 @@ Examples
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function sameCase(a, b) {
     if (!(a.toUpperCase() != a.toLowerCase()) || !(b.toUpperCase() != b.toLowerCase())) {
