@@ -14,6 +14,12 @@ if bmi > 30 return "Obese"
 
 */
 
+
+
+// --------------------------------------------------------------------
+
+
+
 // solution:
 function bmi(weight, height) {
     const bmi = (weight / height ** 2);
