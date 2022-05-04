@@ -8,6 +8,10 @@ Note: Empty arrays should return 0.
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function find_average(array) {
     // your code here
