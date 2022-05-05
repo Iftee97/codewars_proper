@@ -6,6 +6,10 @@ Complete the function which converts a binary number (given as a string) to a de
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function binToDec(bin) {
     return parseInt(bin, 2);
