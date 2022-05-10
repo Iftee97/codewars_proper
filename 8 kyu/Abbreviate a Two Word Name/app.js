@@ -14,10 +14,17 @@ patrick feeney => P.F
 
 */
 
+
+// --------------------------------------------------------------------
+
+
 // solution:
 function abbrevName(name) {
     return name.toUpperCase().split(' ').map(name => name[0]).join('.');
 }
+
+// --------------------------------------------------------------------
+
 
 // solution-2:
 function abbrevName(name) {
