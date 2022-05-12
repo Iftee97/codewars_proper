@@ -14,3 +14,12 @@ Notes:
 You may consider that there will not be any empty arrays/vectors.
 
 */
+
+// solution:
+const min = function (list) {
+    return Math.min(...list);
+}
+
+const max = function (list) {
+    return Math.max(...list);
+}
