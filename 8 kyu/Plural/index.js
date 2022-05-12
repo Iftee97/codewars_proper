@@ -19,3 +19,9 @@ function plural(n) {
 function plural(n) {
     return n === 1 ? false : true;
 }
+
+// solution-3:
+function plural(n) {
+    return n !== 1;
+}
+
