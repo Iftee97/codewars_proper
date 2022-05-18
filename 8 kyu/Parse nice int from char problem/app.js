@@ -15,3 +15,19 @@ function getAge(inputString) {
     let age = Number(inputString[0]);
     return age;
 }
+
+// solution-2:
+// const getAge = (inputString) => Number(inputString[0]);
+
+// solution-3: 
+// a more sophisticated way of finding numbers (age) from a string
+// this solution is implemented so that if the age is not the first character of the inputString, and instead somewhere in between, then we can extract it and return it. A possible, hypothetical edge-case
+const getAge = (inputString) => {
+    inputString.split(' ').forEach((word) => {
+        const value = parseInt(word);
+        if (!isNaN(value)) {
+            age = value;
+        }
+    });
+    return age;
+};
