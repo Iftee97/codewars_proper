@@ -29,6 +29,8 @@ type the console.log() in the next line(don't forget to put the str in the brack
 
 */
 
+// series: https://github.com/myjinxin2015/Katas-list-of-Training-JS-series
+
 // solution:
 function helloWorld() {
     var str = 'Hello World!';
