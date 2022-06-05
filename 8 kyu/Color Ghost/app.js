@@ -24,3 +24,9 @@ class Ghost {
         return this.colors[randomPosition]
     }
 }
+
+
+// solution-2:
+const Ghost = function () {
+    this.color = ["white ", "yello w", "purp le", "red"][Math.floor(Math.random() * 4)];
+};
