@@ -30,3 +30,11 @@ function contamination(text, char) {
   }
   return strToReturn;
 }
+
+// solution 2:
+function contaminationTwo(text, char) {
+  if (text === '' || char === '') {
+    return ''
+  }
+  return text.split('').map(() => char).join('');
+}
