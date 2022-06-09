@@ -38,3 +38,8 @@ function contaminationTwo(text, char) {
   }
   return text.split('').map(() => char).join('');
 }
+
+// solution 3:
+function contamination(text, char) {
+  return char.repeat(text.length)
+}
