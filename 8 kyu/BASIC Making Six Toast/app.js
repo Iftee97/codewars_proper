@@ -35,3 +35,8 @@ function sixToast(num) {
 function sixToast(num) {
   return num === 6 ? 0 : Math.abs(num - 6)
 }
+
+// solution-3:
+function sixToast(num) {
+  return Math.abs(num - 6)
+}
