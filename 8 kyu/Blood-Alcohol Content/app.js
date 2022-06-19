@@ -39,3 +39,8 @@ function bloodAlcoholContent(drinks, weight, sex, time) {
   bac = ((drinks.ounces * drinks.abv) * 5.14 / weight * r) - 0.015 * time
   return Number(bac.toFixed(4))
 }
+
+// solution-2:
+function bloodAlcoholContent(drinks, weight, sex, time) {
+  return parseFloat(((drinks.ounces * drinks.abv * 5.14 / weight * (sex == 'male' ? 0.73 : 0.66)) - 0.015 * time).toFixed(4))
+}
