@@ -21,7 +21,7 @@ function nextItem(arr, item) {
 }
 
 
-// // solution 2:
-// function nextItem(list, item) {
-//   return list.slice(list.indexOf(item) + 1, list.indexOf(item) + 2);
-// }
+// solution 2:
+function nextItem(list, item) {
+  return list.slice(list.indexOf(item) + 1, list.indexOf(item) + 2);
+}
