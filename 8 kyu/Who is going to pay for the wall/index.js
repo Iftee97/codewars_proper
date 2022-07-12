@@ -11,7 +11,13 @@ Your code will show Full name of the neighbor and the truncated version of the n
 // solution 1:
 function whoIsPaying(name) {
   if (name.length <= 2)
-    return [name];
-  let truncatedName = name.substring(0, 2);
-  return [name, truncatedName];
+    return [name]
+  let truncatedName = name.substring(0, 2)
+  return [name, truncatedName]
+}
+
+// solution 2:
+function whoIsPaying(name) {
+  if (name.length <= 2) return [name]
+  return [name, name.slice(0, 2)]
 }
