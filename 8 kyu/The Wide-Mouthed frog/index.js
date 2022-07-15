@@ -16,3 +16,10 @@ Your goal in this kata is to create complete the mouth_size method this method t
 function mouthSize(animal) {
   return animal.toLowerCase() == 'alligator' ? 'small' : 'wide'
 }
+
+// solution 2
+function mouthSize(animal) {
+  if (animal.toLowerCase() === 'alligator')
+    return 'small'
+  return 'wide'
+}
