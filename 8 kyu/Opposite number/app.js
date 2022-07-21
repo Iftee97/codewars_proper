@@ -15,3 +15,8 @@ Examples:
 function opposite(number) {
   return number > 0 ? -number : Math.abs(number)
 }
+
+// solution 2:
+function opposite(number) {
+  return (-number)
+}
