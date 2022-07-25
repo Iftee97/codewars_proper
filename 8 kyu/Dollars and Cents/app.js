@@ -36,3 +36,6 @@ function formatMoney(amount) {
 function formatMoney(amount) {
   return '$' + amount.toFixed(2)
 }
+
+// solution 3:
+let formatMoney = (amount) => `$${amount.toFixed(2)}`
